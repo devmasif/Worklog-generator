@@ -146,4 +146,5 @@ with gr.Blocks(title="Work-log Generator", theme=gr.themes.Soft()) as app:
     )
 
 if __name__ == "__main__":
-    app.launch()
+    app.launch(server_name="0.0.0.0", server_port=8080)
+
